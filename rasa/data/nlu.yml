@@ -1,0 +1,224 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+      - sasa
+      - Hey there
+      - Howdy
+      - Hola
+      - Bonjour
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+
+  - intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
+
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so saad
+      - so sad
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+      - who are you?
+
+  - intent: depressed
+    examples: |
+      - I can't take it anymore
+      - I am so depressed
+      - I think i'm depressed.
+      - I have depression
+
+  - intent: worthless
+    examples: |
+      - I feel so worthless.
+      - No one likes me.
+      - I can't do anything.
+      - I am so useless
+      - Nothing makes sense anymore
+
+  - intent: stressed
+    examples: |
+      - I am so stressed out
+      - I am so stressed
+      - I feel stuck
+      - I still feel stressed
+      - I am so burned out
+
+  - intent: lonely
+    examples: |
+      - I am feeling lonely
+      - I am so lonely
+      - I feel so lonely
+      - I feel empty
+      - I don't have anyone
+
+  - intent: anxious
+    examples: |
+      - I feel so anxious.
+      - I'm so anxious because of
+
+  - intent: scared
+    examples: |
+      - I'm scared
+      - That sounds awful. What do i do?
+      - No i don't want to feel this way
+      - I am scared for myself
+
+  - intent: user-advice
+    examples: |
+      - I need some advice.
+      - I need advice on something
+
+  - intent: i am feeling stressed lately
+    examples: |
+      - i am feeling stressed lately
+
+  - intent: i am afraid i will fail again
+    examples: |
+      - i am afraid i will fail again
+
+  - intent: suicide
+    examples: |
+      - I want to kill myself
+      - I've thought about killing myself.
+      - I want to die
+      - I am going to kill myself
+      - I am going to commit suicide
+
+  - intent: panic_attack
+    examples: |
+      - I'm having a panic attack
+      - How to cope with panic attacks
+      - Signs of a panic attack
+
+  - intent: financial_stress
+    examples: |
+      - Struggling with financial stress
+      - Coping with financial difficulties
+      - Managing financial stress
+
+  - intent: trauma_recovery
+    examples: |
+      - Coping with trauma
+      - Trauma recovery strategies
+      - Healing from traumatic experiences
+
+  - intent: addiction
+    examples: |
+      - Overcoming addiction
+      - Seeking support for addiction
+      - Dealing with substance abuse
+
+  - intent: mindfulness
+    examples: |
+      - Tell me about mindfulness
+      - Practicing mindfulness
+      - Benefits of mindfulness
+      - How to practice mindfulness
+      - Mindfulness exercises
+      - Mindful meditation
+      - Techniques for mindfulness
+      - Mindfulness for mental health
+      - What is mindfulness
+      - Incorporating mindfulness into my routine
+
+  - intent: seek_support
+    examples: |
+      - I need someone to talk to
+      - Can you help me?
+      - I'm looking for support
+      - Need support right now
+      - Feeling alone, need support
+      - Seeking someone to listen
+      - Can you provide assistance?
+      - Looking for guidance
+      - Need emotional support
+      - Feeling overwhelmed, need help
+
+  - intent: coping_strategies
+    examples: |
+      - Coping mechanisms for stress
+      - Strategies for dealing with anxiety
+      - How to cope with depression
+      - Coping strategies for tough times
+      - Techniques for managing stress
+      - Dealing with challenges, need coping strategies
+      - Tips for emotional resilience
+      - Strategies for overcoming difficulties
+      - What are some coping methods?
+      - Coping mechanisms for mental health

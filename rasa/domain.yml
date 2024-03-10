@@ -1,0 +1,141 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - depressed
+  - worthless
+  - stressed
+  - lonely
+  - anxious
+  - scared
+  - user-advice
+  - i am feeling stressed lately
+  - i am afraid i will fail again
+  - suicide
+  - panic_attack
+  - financial_stress
+  - trauma_recovery
+  - addiction 
+  - mindfulness
+  - seek_support
+  - coping_strategies
+
+
+responses:
+  utter_greet:
+  - text: "Hi friend😊.Would you like to share something with me ?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up: we are champions and we are going to create a bot that is fantastic and beautiful such that people just by clicking on it become healthy samjha ba "
+  
+
+  utter_did_that_help:
+  - text: "Did that help ?"
+
+  utter_happy:
+  - text: "Just chill and be happy."
+
+  utter_goodbye:
+  - text: "Bye Bye Friend .Stay happy!Stay blessed! 😊"
+
+  utter_iamabot:
+  - text: "I am EmoYax a blissful chatbot"
+  
+  utter_depressed:
+  - text: "It helps to talk about what's happening. You're going to be okay"
+  - text: "Talk to me. Tell me more. It helps if you open up yourself to someone else."
+
+  utter_worthless:
+  - text: "Let's discuss further why you're feeling this way."
+  - text: "I first want to let you know that you are not alone in your feelings and there
+          is always someone there to help . you can always change your feelings and change
+          your way of thinking by being open to trying to change."
+  - text: "i first want to let you know that you are not alone in your feelings and there
+           is always someone there to help . you can always change your feelings and change
+           your way of thinking by being open to trying to change."
+
+  utter_lonely:
+  - text: "I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell
+           me why do you think you're feeling this way?"
+  - text: " I'm here for you. Could you tell me why you're feeling this way?"
+  - text: "Why do you think you feel this way?"
+  - text: "How long have you been feeling this way?"    
+
+  utter_anxious:
+  - text: "Don't be hard on yourself. What's the reason behind this?"
+  - text: "Can you tell me more about this feeling?"
+  - text: "I understand that it can be scary. Tell me more about it."
+  - text: "Don't let the little worries bring you down. What's the worse that can happen?" 
+
+  utter_sacred:
+  - text: "It's only natural to feel this way. I'm here for you." 
+  - text: "It'll all be okay. This feeling is only momentary."    
+  - text: "I understand how you feel. Don't put yourself down because of it."   
+
+  utter_advice:
+  - text: "Sure. What can I do to help?"
+  - text: "Okay what do you need advice on?" 
+
+  utter_stressedlately:
+  - text: "my research says that music is the best way to calm yourself.so visit the link
+        and listen to your favourite music.it will definitely cheer you up https://www.spotify.com"
+
+  utter_again:
+  - text: "- failure is the stepping stone towards success.never fear failure.your hardwork
+        and determination will help you reach your goal."   
+
+  utter_rescue:
+  - text: "I'm very sorry to hear that but you have so much to look forward to. Please
+        seek help by contacting: 9152987821." 
+
+  utter_provide_help:
+  - text: "I'm here to help. How are you feeling?"
+
+  utter_provide_anxiety_tips:
+  - text: "Managing anxiety involves various strategies, such as deep breathing, mindfulness, and creating a routine. It's important to prioritize self-care and seek professional help if needed."
+
+  utter_provide_mindfulness_info:
+  - text: "Mindfulness is the practice of being present in the moment. It can involve meditation, deep breathing, and awareness exercises. Regular mindfulness practice can contribute to mental well-being."
+
+  utter_provide_financial_stress_advice:
+  - text: "Dealing with financial stress is a common challenge. Consider creating a budget, prioritizing needs, and seeking financial advice. Don't hesitate to reach out to financial counselors or organizations that can provide support."
+
+  utter_provide_coping_strategies:
+  - text: "Coping strategies vary for each person, but some general techniques include talking to someone you trust, engaging in hobbies, and practicing self-compassion. Remember, it's okay to seek help when needed."
+
+  utter_respond_to_addiction:
+  - text: "Struggling with addiction is tough, but help is available. Consider reaching out to addiction support groups, therapy, or rehabilitation centers. It's important to involve professionals in your journey to recovery."
+  
+  utter_respond_to_stress:
+  - text: "I'm sorry to hear that you're feeling stressed. It's important to take a moment for yourself. Consider deep breathing, taking a short break, or engaging in activities that bring you comfort. If you need someone to talk to, I'm here for you."
+
+  utter_provide_addiction_support:
+  - text: "I'm sorry to hear that you're struggling with addiction. It's important to know that you're not alone. Reach out to friends, family, or a healthcare professional for support. Taking the first step towards recovery is commendable, and there are resources available to help you on this journey. If you need immediate assistance, consider contacting a helpline or a local addiction support organization."
+
+  utter_respond_to_trauma_recovery:
+  - text: "I understand that coping with trauma can be challenging. It's essential to prioritize your well-being. Seeking support from friends, family, or a mental health professional can make a significant difference. Remember, healing takes time, and it's okay to reach out for help. If you're comfortable, consider exploring therapeutic techniques such as counseling or support groups to aid in your recovery journey."  
+
+  utter_provide_trauma_recovery_resources:
+  - text: "In your journey towards trauma recovery, it's important to have access to helpful resources. Consider exploring therapeutic techniques such as counseling or support groups. Additionally, you may find valuable information and support from organizations like the National Center for PTSD, RAINN (Rape, Abuse & Incest National Network), or local mental health services. Remember, reaching out for support is a courageous step, and there are resources available to assist you on your path to healing."
+   
+  utter_respond_to_panic_attack:
+  - text: "I'm sorry to hear that you're experiencing a panic attack. Remember, it's essential to find a quiet space, take deep breaths, and focus on grounding techniques. You're not alone. If you have someone you trust, consider reaching out to them. If the panic attack persists or if you need additional support, don't hesitate to contact a mental health professional or a helpline. Taking care of yourself is a priority, and there are resources available to help you through this moment."
+
+  utter_provide_support:
+  - text: "I'm here to provide support. If you need someone to talk to or if there's anything specific on your mind, feel free to share. Remember, seeking help is a sign of strength, and you don't have to face challenges alone."
+
+  utter_provide_anxiety_coping_strategies:
+  - text: "Coping with anxiety can be challenging, but there are strategies that may help. Consider practicing deep breathing exercises, engaging in physical activity, or trying mindfulness and relaxation techniques. Creating a routine, setting realistic goals, and ensuring sufficient sleep can also contribute to managing anxiety. Remember, it's okay to ask for support from friends, family, or a mental health professional. Everyone's journey is unique, so explore what works best for you."
+
+  utter_provide_loneliness_coping_strategies:
+  - text: "Coping with loneliness can be challenging, but there are strategies that may help. Consider reaching out to friends or family for a chat, joining social groups or clubs, or participating in activities you enjoy. Engaging in hobbies, volunteering, or taking up new interests can also provide opportunities to meet people and build connections. Additionally, practicing self-compassion and focusing on self-care are important aspects of managing loneliness. Remember, you're not alone, and there are ways to connect with others and nurture meaningful relationships."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

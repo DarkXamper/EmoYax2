@@ -1,0 +1,148 @@
+version: "3.1"
+
+stories:
+  - story: happy path
+    steps:
+      - intent: mood_great
+      - action: utter_happy
+
+  - story: sad path 1
+    steps:
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: affirm
+      - action: utter_happy
+
+  - story: sad path 2
+    steps:
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: deny
+      - action: utter_goodbye
+
+  - story: happy path 3
+    steps:
+      - action: utter_goodbye
+      - intent: mood_great
+      - action: utter_happy
+
+  - story: depression
+    steps:
+      - intent: depressed
+      - action: utter_depressed
+
+  - story: worthless
+    steps:
+      - intent: worthless
+      - action: utter_worthless
+
+  - story: lonely
+    steps:
+      - intent: lonely
+      - action: utter_lonely
+      - intent: coping_strategies
+      - action: utter_provide_loneliness_coping_strategies
+      - intent: seek_support
+      - action: utter_provide_support
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: anxious
+    steps:
+      - intent: anxious
+      - action: utter_anxious
+      - intent: coping_strategies
+      - action: utter_provide_anxiety_coping_strategies
+      - intent: seek_support
+      - action: utter_provide_support
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: scared
+    steps:
+      - intent: scared
+      - action: utter_sacred
+
+  - story: user-advice
+    steps:
+      - intent: user-advice
+      - action: utter_advice
+
+  - story: stressed lately
+    steps:
+      - intent: i am feeling stressed lately
+      - action: utter_stressedlately
+
+  - story: fail again
+    steps:
+      - intent: i am afraid i will fail again
+      - action: utter_again
+
+  - story: killing
+    steps:
+      - intent: suicide
+      - action: utter_rescue
+
+  - story: user experiences a panic attack
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: panic_attack
+      - action: utter_respond_to_panic_attack
+      - intent: seek_support
+      - action: utter_provide_support
+
+  - story: user seeks mindfulness techniques
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mindfulness
+      - action: utter_provide_mindfulness_info
+
+  - story: user faces financial stress and wants advice
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: financial_stress
+      - action: utter_provide_financial_stress_advice
+      - intent: coping_strategies
+      - action: utter_provide_coping_strategies
+
+  - story: user expresses struggle with addiction and seeks help
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: addiction
+      - action: utter_respond_to_addiction
+      - intent: seek_support
+      - action: utter_provide_addiction_support
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: coping_stress
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: stressed
+      - action: utter_respond_to_stress
+      - intent: coping_strategies
+      - action: utter_provide_coping_strategies
+      - intent: seek_support
+      - action: utter_provide_help
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: user seeks information on trauma recovery
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: trauma_recovery
+      - action: utter_respond_to_trauma_recovery
+      - intent: coping_strategies
+      - action: utter_provide_trauma_recovery_resources
+      - intent: seek_support
+      - action: utter_provide_help
+      - intent: goodbye
+      - action: utter_goodbye

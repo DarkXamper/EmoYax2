@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Rasa generated files
+__generated__/
+models/
+
+# Logs and temporary files
+*.log
+*.db
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# Dependency files
+requirements.txt
+
+# Configuration files with sensitive information
+credentials.yml
